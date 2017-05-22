@@ -49,4 +49,4 @@ No. The reason for choosing these apps and services is that they are free (as in
 
 ## Troubleshooting 
 
-The most common problem people encounter is getting _R_/_RStudio_ to communicate through corporate proxy servers, such as those used by the University of the Witwatersrand (proxyad.wits.ac.za:80). If you have any issues installing the software, please contact <a href="mailto:peter.kamerman@gmail.com">me</a>.
+The most common problem people encounter is getting _R_/_RStudio_ to communicate through corporate proxy servers, such as those used by the University of the Witwatersrand (proxyad.wits.ac.za:80). If you have any issues installing or configuring the software, please contact <a href="mailto:peter.kamerman@gmail.com">me</a>.
