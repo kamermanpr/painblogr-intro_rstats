@@ -22,6 +22,26 @@
     </item>
     
     <item>
+      <title>About</title>
+      <link>/post/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/about/</guid>
+      <description>What this course is not This is not an introductory statistics course. Running a stats test is the easy part (interpreting the results of that test is a whole other thing though). The hard part of any data analysis is getting the data into shape to be explored and analysed.
+What this course is This short-course provides an introduction to data wrangling, plotting, and reproducible research practices using the statistical computing programme R{ target=&amp;rdquo;_blank&amp;rdquo; } and the distributed version control system git{ target=&amp;rdquo;_blank&amp;rdquo; }.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/post/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/about/</guid>
+      <description>What this course is not This is not an introductory statistics course. Running a stats test is the easy part (interpreting the results of that test is a whole other thing though). The hard part of any data analysis is getting the data into shape to be explored and analysed.
+What this course is This short-course provides an introduction to data wrangling, plotting, and reproducible research practices using the statistical computing programme R{ target=&amp;rdquo;_blank&amp;rdquo; } and the distributed version control system git{ target=&amp;rdquo;_blank&amp;rdquo; }.</description>
+    </item>
+    
+    <item>
       <title>Preparing for the course</title>
       <link>/post/preparing-for-the-course/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
