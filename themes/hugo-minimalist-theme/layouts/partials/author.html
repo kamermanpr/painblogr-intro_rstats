@@ -1,0 +1,26 @@
+<aside class="author">
+  <img class="profile-image" src="{{ .Site.Params.avatar | absURL }}" alt="{{ .Site.Params.site_author }}" style="filter:grayscale(100%);"/>
+  <p class="name">{{ .Site.Data.l10n.author.by }}
+  <strong><a href="mailto:peter.kamerman@gmail.com">{{ .Site.Params.site_author }}</a></strong></p>
+  <p class="address"><a href="//painblogr.org" target="_blank">{{ .Site.Params.location }}</a></p>
+  <p class="link"></p>
+  <ul class="social">
+    {{ partial "social" . }}
+  </ul>
+  <br><br>
+  <div>
+	  <h2 style="margin-bottom:0.5em">Contents</h2>
+	  <a href="#About">About</a>
+	  <br><br>
+	  <a href="#Preparing for the course">Preparing for the course</a>
+	  <br><br>
+	  <a href="#Swirl">Swirl</a>
+	  <br><br>
+	  <a href="#Free courses">Free courses</a>
+	  <br><br>
+	  <a href="#Cheatsheets">Cheatsheets</a>
+	  <br><br>
+	  <a href="#Cool stuff">Cool stuff</a>
+  </div>
+<br><br>
+</aside>

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: 'About'\nweight: 1\nslug: about\n---\n\n## What this course is not\n\nThis is **not** an introductory statistics course. Running a stats test is the easy part (interpreting the results of that test is a whole other thing though). The hard part of any data analysis is getting the data into shape to be explored and analysed. \n\n## What this course is\n\nThis short-course provides an introduction to data wrangling, plotting, and reproducible research practices using the statistical computing programme [_R_](//www.r-project.org/){ target=\"_blank\" } and the distributed version control system [_git_](//git-scm.com/){ target=\"_blank\" }. To facilitate the workflow of using _R_ and _git_, we will use [_RStudio_](//www.rstudio.com){ target=\"_blank\" }, an integrated development environment (IDE) for _R_ that includes support for _git_. In addition, you will learn to use [_GitHub_](//github.com/){ target=\"_blank\" }, a web-based _git_ repository hosting service. _GitHub_ is an essential tool for producing reproducible and open data analysis.\n",
+    "created" : 1495447240251.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2178781862",
+    "id" : "F411997A",
+    "lastKnownWriteTime" : 1495475210,
+    "last_content_update" : 1495475210639,
+    "path" : "~/Dropbox/_home/github/painblogr-rstats.BFRG/content/post/2017-05-22-about.Rmd",
+    "project_path" : "content/post/2017-05-22-about.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

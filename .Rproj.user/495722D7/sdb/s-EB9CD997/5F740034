@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "blogdown::install_theme(theme = 'digitalcraftsman/hugo-minimalist-theme',\n                        theme_example = TRUE,\n                        update_config = TRUE)\nblogdown::new_site()\nblogdown::serve_site()\nblogdown::new_post(title = 'Preparing for the course', rmd = TRUE)\nblogdown::build_site()\n",
+    "created" : 1495377883310.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1285056769",
+    "id" : "5F740034",
+    "lastKnownWriteTime" : 7809926102699224930,
+    "last_content_update" : 1495481861238,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

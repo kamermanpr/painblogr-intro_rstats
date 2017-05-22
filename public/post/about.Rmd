@@ -1,0 +1,12 @@
+---
+title: 'About'
+weight: 1
+slug: about
+---
+
+This short-course provides an introduction to data wrangling, plotting, and reproducibility using the statistical computing programme [_R_](//www.r-project.org/) in the [_RStudio_](//www.rstudio.com) integrated development environment (IDE), and [_git_](//git-scm.com/) (with the [_GitHub_](//github.com/) web-based _git_ repository hosting service) for version control. The reason for choosing these apps is that they are free _(as in beer and as in speech)_, and have well-established and active user and developer communities. 
+
+
+The course assumes some basic knowledge of _R_ and _git_. If the commands `data[ , 1:5]` or `git commit` mean nothing to you, then you need to complete some free online courses in preparation for this course ([see examples below](#free-courses)) as well as the _R Programming_ `swirl` course ([see below](#swirl)). 
+
+

@@ -1,0 +1,12 @@
+---
+title: Cool stuff
+weight: 6
+slug: cool-stuff
+---
+
+## Seeing Theory
+
+**A visual introduction to probability and statistics**
+
+I strongly recommend that you go play around with the interactive plots at [_Seeing Theory_](http://students.brown.edu/seeing-theory/){ target="_blank" }. The project was designed and created by _Daniel Kunin_ with support from Brown University's Royce Fellowship Program and National Science Foundation group STATS4STEM. The goal of the project is to make statistics more accessible to a wider range of students through interactive visualizations. 
+

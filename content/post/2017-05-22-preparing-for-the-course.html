@@ -1,0 +1,55 @@
+---
+title: Preparing for the course
+weight: 2
+slug: preparing-for-the-course
+---
+
+
+
+<div id="do-i-need-any-experience-using-r-or-git" class="section level2">
+<h2>Do I need any experience using R or git?</h2>
+<p>The course assumes some basic knowledge of <em>R</em> and <em>git</em>. If the commands <code>data[ , 1:5]</code> or <code>git commit</code> mean absolutely nothing to you, then you need to complete one or more introductory online courses in preparation for this course (<a href="#Free%20courses">see below for some good free options</a>), and the <strong>‘R Programming’</strong> course provided through the <em>R</em> package <code>swirl</code> (<a href="#Swirl">instructions below</a>).</p>
+</div>
+<div id="what-software-must-i-install-on-my-computer" class="section level2">
+<h2>What software must I install on my computer?</h2>
+<p>You will need the latest releases of the following apps (if you already the apps installed, check for updates):</p>
+<ul>
+<li><p><a href="//cran.r-project.org" target="_blank"><em>R</em></a> (available for: Windows, Mac, and Linux)</p></li>
+<li><p><a href="//www.rstudio.com/products/rstudio/download/" target="_blank"><em>RStudio Desktop</em></a> (available for: Windows, Mac, and Linux) It is important that you only install <em>RStudio</em> after you have installed <em>R</em>.</p></li>
+<li><p><a href="//git-scm.com/downloads" target="_blank"><em>git</em></a> (available for: Windows, Mac, and Linux) After you have installed git, you will need to configure the app. You can download documentation on how to perform this configuration <a href="https://www.dropbox.com/s/fdx3dgw4507m58l/configuring-git.pdf?dl=1">here</a>.</p></li>
+<li><p>Although it is not essential, I suggest you also install <em>TeX/LaTeX</em> onto your system if you are a <a href="https://miktex.org/download" target="_blank">Windows</a> or <a href="http://www.tug.org/mactex/downloading.html" target="_blank">Mac</a> user. The size of the download is very large (~2GB).</p></li>
+</ul>
+<p>Once you have downloaded and installed <em>R</em> and <em>RStudio</em>, you will need to install the following <em>R</em> packages (packages add extra functionality to the basic <em>R</em> installation):</p>
+<ul>
+<li><code>knitr</code>, <code>RColorBrewer</code>, <code>rmarkdown</code>, <code>swirl</code>, <code>svglite</code>, <code>tidyverse</code> <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, <code>viridis</code></li>
+</ul>
+<p>To install the packages from the <em>R</em> console in <em>RStudio</em>:</p>
+<div class="figure">
+<img src="img/rconsole.png" />
+
+</div>
+<pre class="r"><code># Re-type or copy and paste the appropriate text into the R console 
+# and press &#39;Enter&#39;.
+
+install.packages(c(&#39;knitr&#39;, &#39;RColorBrewer&#39;, &#39;rmarkdown&#39;, 
+                   &#39;swirl&#39;, &#39;svglite&#39;, &#39;tidyverse&#39;, 
+                   &#39;viridis&#39;))</code></pre>
+</div>
+<div id="what-services-must-i-sign-up-to" class="section level2">
+<h2>What services must I sign-up to?</h2>
+<p>You need to sign-up for a free <a href="https://github.com" target="_blank"><em>GitHub</em></a> account. And if you complete any of the free online courses in preparation for this course you will probably have to sign-up to the organsizations offering the courses.</p>
+</div>
+<div id="do-i-need-to-pay-for-any-of-these-apps" class="section level2">
+<h2>Do I need to pay for any of these apps?</h2>
+<p>No. The reason for choosing these apps and services is that they are free (as in beer and as in speech) and work across all major operating systems.</p>
+</div>
+<div id="troubleshooting" class="section level2">
+<h2>Troubleshooting</h2>
+<p>If you have any issues installing the software, please contact <a href="mailto:peter.kamerman@gmail.com>me</a>. The most common problem people encounter is getting <em>R</em>/<em>RStudio</em> to communicate through corporate proxy servers, such as those used by the University of the Witwatersrand (proxyad.wits.ac.za:80).</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>The <code>tidyverse</code> package bundles a series of essential packages for importing, munging and visualising data (e.g., <code>dplyr</code>, <code>forcats</code>, <code>ggplot2</code>, <code>lubridate</code>, <code>purrr</code>, <code>readr</code>, <code>stringr</code>, <code>tidyr</code>).<a href="#fnref1">↩</a></p></li>
+</ol>
+</div>

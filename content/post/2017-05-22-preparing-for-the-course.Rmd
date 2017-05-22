@@ -1,0 +1,52 @@
+---
+title: Preparing for the course
+weight: 2
+slug: preparing-for-the-course
+---
+
+## Do I need any experience using R or git?
+
+The course assumes some basic knowledge of _R_ and _git_. If the commands `data[ , 1:5]` or `git commit` mean absolutely nothing to you, then you need to complete one or more introductory online courses in preparation for this course ([see below for some good free options](#Free courses)), and the **'R Programming'** course provided through the _R_ package `swirl` ([instructions below](#Swirl)).
+
+## What software must I install on my computer?
+
+You will need the latest releases of the following apps (if you already the apps installed, check for updates):
+
+- [_R_](//cran.r-project.org){ target="_blank" } (available for: Windows, Mac, and Linux)
+
+- [_RStudio Desktop_](//www.rstudio.com/products/rstudio/download/){ target="_blank" } (available for: Windows, Mac, and Linux) It is important that you only install _RStudio_ after you have installed _R_.
+
+- [_git_](//git-scm.com/downloads){ target="_blank" } (available for: Windows, Mac, and Linux) After you have installed git, you will need to configure the app. You can download documentation on how to perform this configuration [here](https://www.dropbox.com/s/fdx3dgw4507m58l/configuring-git.pdf?dl=1).
+
+- Although it is not essential, I suggest you also install _TeX/LaTeX_ onto your system if you are a [Windows](https://miktex.org/download){ target="_blank" } or [Mac](http://www.tug.org/mactex/downloading.html){ target="_blank" } user. The size of the download is very large (~2GB).
+
+Once you have downloaded and installed _R_ and _RStudio_, you will need to install the following _R_ packages (packages add extra functionality to the basic _R_ installation):
+
+- `knitr`, `RColorBrewer`, `rmarkdown`, `swirl`, `svglite`, `tidyverse` [^1], `viridis` 
+
+[^1]: The `tidyverse` package bundles a series of essential packages for importing, munging and visualising data (e.g., `dplyr`, `forcats`, `ggplot2`, `lubridate`, `purrr`, `readr`, `stringr`, `tidyr`).
+
+To install the packages from the _R_ console in _RStudio_:
+
+![](img/rconsole.png)
+
+```{r eval = FALSE}
+# Re-type or copy and paste the appropriate text into the R console 
+# and press 'Enter'.
+
+install.packages(c('knitr', 'RColorBrewer', 'rmarkdown', 
+                   'swirl', 'svglite', 'tidyverse', 
+                   'viridis'))
+```
+
+## What services must I sign-up to?
+
+You need to sign-up for a free [_GitHub_](https://github.com){ target="_blank" } account. And if you complete any of the free online courses in preparation for this course you will probably have to sign-up to the organsizations offering the courses. 
+
+## Do I need to pay for any of these apps?
+
+No. The reason for choosing these apps and services is that they are free (as in beer and as in speech) and work across all major operating systems.
+
+## Troubleshooting 
+
+If you have any issues installing the software, please contact <a href="mailto:peter.kamerman@gmail.com>me</a>. The most common problem people encounter is getting _R_/_RStudio_ to communicate through corporate proxy servers, such as those used by the University of the Witwatersrand (proxyad.wits.ac.za:80). 

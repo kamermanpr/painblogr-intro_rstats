@@ -1,0 +1,21 @@
+---
+title: Free courses
+weight: 4
+slug: free-courses
+---
+
+If you are a complete _**newbie**_ to _R_ and _git_, use these free online courses to learn the basics. 
+
+## _R_ online
+
+- [Introduction to R](//www.datacamp.com/courses/free-introduction-to-r){ target="_blank" } by datacamp.com
+
+- [R Programming](//www.codeschool.com/courses/try-r){ target="_blank" } by codeschool.com  
+
+## _git_ online
+
+- [Try git](//www.codeschool.com/courses/try-git){ target="_blank" } by codeschool.com 
+
+- [Learn git](//www.codecademy.com/learn/learn-git){ target="_blank" } by codecademy.com
+
+

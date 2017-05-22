@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: Preparing for the course\nweight: 2\nslug: preparing-for-the-course\n---\n\n## Do I need any experience using R or git?\n\nThe course assumes some basic knowledge of _R_ and _git_. If the commands `data[ , 1:5]` or `git commit` mean absolutely nothing to you, then you need to complete one or more introductory online courses in preparation for this course ([see below for some good free options](#Free courses)), and the **'R Programming'** course provided through the _R_ package `swirl` ([instructions below](#Swirl)).\n\n## What software must I install on my computer?\n\nYou will need the latest releases of the following apps (if you already the apps installed, check for updates):\n\n- [_R_](//cran.r-project.org){ target=\"_blank\" } (available for: Windows, Mac, and Linux)\n\n- [_RStudio Desktop_](//www.rstudio.com/products/rstudio/download/){ target=\"_blank\" } (available for: Windows, Mac, and Linux) It is important that you only install _RStudio_ after you have installed _R_.\n\n- [_git_](//git-scm.com/downloads){ target=\"_blank\" } (available for: Windows, Mac, and Linux) After you have installed git, you will need to configure the app. You can download documentation on how to perform this configuration [here](https://www.dropbox.com/s/fdx3dgw4507m58l/configuring-git.pdf?dl=1).\n\n- Although it is not essential, I suggest you also install _TeX/LaTeX_ onto your system if you are a [Windows](https://miktex.org/download){ target=\"_blank\" } or [Mac](http://www.tug.org/mactex/downloading.html){ target=\"_blank\" } user. The size of the download is very large (~2GB).\n\nOnce you have downloaded and installed _R_ and _RStudio_, you will need to install the following _R_ packages (packages add extra functionality to the basic _R_ installation):\n\n- `knitr`, `RColorBrewer`, `rmarkdown`, `swirl`, `svglite`, `tidyverse` [^1], `viridis` \n\n[^1]: The `tidyverse` package bundles a series of essential packages for importing, munging and visualising data (e.g., `dplyr`, `forcats`, `ggplot2`, `lubridate`, `purrr`, `readr`, `stringr`, `tidyr`).\n\nTo install the packages from the _R_ console in _RStudio_:\n\n![](img/rconsole.png)\n\n```{r eval = FALSE}\n# Re-type or copy and paste the appropriate text into the R console \n# and press 'Enter'.\n\ninstall.packages(c('knitr', 'RColorBrewer', 'rmarkdown', \n                   'swirl', 'svglite', 'tidyverse', \n                   'viridis'))\n```\n\n## What services must I sign-up to?\n\nYou need to sign-up for a free [_GitHub_](https://github.com){ target=\"_blank\" } account. And if you complete any of the free online courses in preparation for this course you will probably have to sign-up to the organsizations offering the courses. \n\n## Do I need to pay for any of these apps?\n\nNo. The reason for choosing these apps and services is that they are free (as in beer and as in speech) and work across all major operating systems.\n\n## Troubleshooting \n\nIf you have any issues installing the software, please contact <a href=\"mailto:peter.kamerman@gmail.com>me</a>. The most common problem people encounter is getting _R_/_RStudio_ to communicate through corporate proxy servers, such as those used by the University of the Witwatersrand (proxyad.wits.ac.za:80). \n",
+    "created" : 1495474824297.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1896789686",
+    "id" : "89B7AFBA",
+    "lastKnownWriteTime" : 1495481357,
+    "last_content_update" : 1495481357905,
+    "path" : "~/Dropbox/_home/github/painblogr-intro_rstats/content/post/2017-05-22-preparing-for-the-course.Rmd",
+    "project_path" : "content/post/2017-05-22-preparing-for-the-course.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,13 @@
+---
+title: 'About'
+weight: 1
+slug: about
+---
+
+## What this course is not
+
+This is **not** an introductory statistics course. Running a stats test is the easy part (interpreting the results of that test is a whole other thing though). The hard part of any data analysis is getting the data into shape to be explored and analysed. 
+
+## What this course is
+
+This short-course provides an introduction to data wrangling, plotting, and reproducible research practices using the statistical computing programme [_R_](//www.r-project.org/){ target="_blank" } and the distributed version control system [_git_](//git-scm.com/){ target="_blank" }. To facilitate the workflow of using _R_ and _git_, we will use [_RStudio_](//www.rstudio.com){ target="_blank" }, an integrated development environment (IDE) for _R_ that includes support for _git_. In addition, you will learn to use [_GitHub_](//github.com/){ target="_blank" }, a web-based _git_ repository hosting service. _GitHub_ is an essential tool for producing reproducible and open data analysis.

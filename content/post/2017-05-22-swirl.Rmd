@@ -1,0 +1,43 @@
+---
+title: Swirl
+weight: 3
+slug: swirl
+---
+
+The `swirl` package for _R_ was developed by the Swirl Development Team, and includes a suite of step-by-step interactive training courses on _R_, which are aimed primarily at the novice and intermediate user. Before starting this course you should at the very least be familiar with the content of the `swirl` course: **'R Programming'**. During the course, we shall also complete all or parts of the `swirl` courses: **'Getting and Cleaning Data'**, and **'Exploratory Data Analysis'**. You can look at the full suite of `swirl` courses that are available [here](https://github.com/swirldev/swirl_courses#swirl-courses){ target="_blank" }.
+
+Follow the instructions below to install and load the `swirl` package:
+
+```{r eval = FALSE}
+# Re-type or copy and paste the text below into the R console, 
+# pressing 'Enter' after each step.
+
+# If you haven't already installed swirl
+install.packages('swirl')
+
+# Once the package is installed, load the 'swirl' package
+library(swirl)
+
+# Launch a 'swirl' session and follow the prompts
+swirl()
+```
+
+...and to install `swirl` courses:
+
+```{r eval = FALSE}
+# Re-type or copy and paste the text below into the R console, 
+# pressing 'Enter' after each step.
+
+# Load the 'swirl' package
+library(swirl)
+
+# Download a course from the 'swirl' github repository
+## Course names:
+### 'R Programming Alt'
+### 'Getting and Cleaning Data'
+### 'Exploratory Data Analysis'
+install_from_swirl('Course Name Here')
+
+# Launch a 'swirl' session and follow the prompts
+swirl()
+```

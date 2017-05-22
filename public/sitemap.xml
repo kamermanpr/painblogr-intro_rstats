@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>/post/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/preparing-for-the-course/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/swirl/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/free-courses/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/cheatsheets/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/cool-stuff/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

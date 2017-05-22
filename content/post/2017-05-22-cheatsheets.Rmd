@@ -1,0 +1,33 @@
+---
+title: Cheatsheets
+weight: 5
+slug: cheatsheets
+---
+
+Remembering commands can be difficult, especially when you are a new user or you are out of practise. So here are links to some useful cheat-sheets:  
+
+## _R / RStudio_
+
+- [_Base R_](//www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf) (source: Mhairi McNeill via rstudio.com)  
+
+- [_Importing data_](//github.com/rstudio/cheatsheets/raw/master/source/pdfs/data-import-cheatsheet.pdf) (source: rstudio.com)  
+
+- [_Data wrangling_](//github.com/rstudio/cheatsheets/raw/master/source/pdfs/data-transformation-cheatsheet.pdf) with _dplyr_ and _tidyr_ (source: rstudio.com)   
+
+- [_Data visualization_](//www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf) with _ggplot2_ (source: rstudio.com)  
+
+- [_Regular expressions_](//www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf) (source: Ian Kopacka via rstudio.com)  
+
+- [_RMarkdown cheatsheet_](//www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf) (source: rstudio.com)  
+
+- [_RStudio IDE_](//www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf) (source: rstudio.com) 
+
+## _git_
+
+- [_git_](//www.git-tower.com/blog/git-cheat-sheet/){ target="_blank" } (source: git-tower.com) 
+
+- [_git_](//services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (source: github.com)
+
+- [_git_ the simple guide](//rogerdudler.github.io/git-guide/){ target="_blank" } (interactive)
+
+- [_git_ workflow overview](//www.git-tower.com/blog/workflow-of-version-control/){ target="_blank" } (source: git-tower.com) 

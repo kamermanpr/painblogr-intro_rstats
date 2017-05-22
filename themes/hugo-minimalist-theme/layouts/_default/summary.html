@@ -1,0 +1,10 @@
+<article class="post">
+    {{ partial "article-header" . }}
+	{{ .Content}}
+<!--
+	<p>{{ printf "%s" .Summary | markdownify }}&hellip;</p>
+	{{ if .Truncated }}
+    <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Site.Data.l10n.article.read_more }} &raquo;</a>
+	{{ end }}
+-->
+</article>
